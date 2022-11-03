@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* Produtos */
+
+h2 {
+  margin: 0;
+  padding: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: rgb(83, 34, 83);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.foto-produto {
+  object-fit: contain;
+  object-position: center;
+  height: 100px;
+  width: 100px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  border: 0.3rem solid rgb(61, 7, 105);
+  display: flex;
+  justify-content: space-between;
+}
